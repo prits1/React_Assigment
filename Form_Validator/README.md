@@ -1,12 +1,43 @@
-# React + Vite
+# 🧾 React Form with Custom Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React form with real-time validation and no third-party libraries.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time input validation
+- Inline error messages
+- Submit button disabled until form is valid
+- Password show/hide toggle
+- Dynamic city options based on country
+- Displays submitted data on a new route
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> You can add a screenshot here  
+> ![Form Preview](./public/form.png)
+> ![Success Form Preview](./public/success.png)
+
+---
+
+## 🧩 Tech Stack
+
+- React (v19+)
+- React Router DOM
+- CSS (no frameworks)
+
+## 📋 Fields Included
+
+- First Name, Last Name, Username
+- Email, Password
+- Phone No. (Country Code + Number)
+- Country, City (dropdowns)
+- PAN No., Aadhar No.
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/your-username/react-form-validation
+cd react-form-validation
+npm install
+npm run dev
