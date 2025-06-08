@@ -41,5 +41,3 @@ git clone https://github.com/your-username/react-form-validation
 cd react-form-validation
 npm install
 npm run dev
-
-This makes the aplication run locally.
