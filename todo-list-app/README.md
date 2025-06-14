@@ -2,7 +2,7 @@
 
 A modern, feature-rich to-do list application built with React that helps you manage your tasks efficiently with persistent storage.
 
-![To-Do App Preview](https://via.placeholder.com/800x400/3b82f6/ffffff?text=React+To-Do+List+App)
+![To-Do App Preview](./public/image.png)
 
 ## ✨ Features
 
